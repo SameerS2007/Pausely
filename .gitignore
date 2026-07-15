@@ -1,1 +1,5 @@
 /.vscode
+ios/**/xcuserdata/
+ios/**/DerivedData/
+*.xcuserstate
+ios/README.md

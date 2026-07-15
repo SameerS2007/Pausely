@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BCA09AD09A040529B4AD0DD /* PauselyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872054B74C7F438892732B34 /* PauselyApp.swift */; };
+		23CFAB18DC264F6D98234A0D /* PauselyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12481F4ED621411EA1A12DF2 /* PauselyTheme.swift */; };
+		52603654B66649188E4F0E50 /* PauselyLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBD6878BA25439B9EAA1B3B /* PauselyLogo.swift */; };
+		70E157DB3FA34F23BC2483D9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4202656D14036BA7AB8AC /* Models.swift */; };
+		A609E51D34F14291A5AAEB0F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E222F8EDA6EB4B89878BCDCF /* AppState.swift */; };
+		32EECD14BFB547918B727AA3 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52034E4645DF4CD3A378FE28 /* RootView.swift */; };
+		6BC7A7B8C63D4EEBA8E65ADC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE91A1BCEA4A8FBCAF04C1 /* HomeView.swift */; };
+		9492F97CEA31448993FAC810 /* StartSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E23755C93B46099BBAD094 /* StartSessionView.swift */; };
+		618A91D8A5834726BF12AADB /* ActiveSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CECDF718684777B4259D29 /* ActiveSessionView.swift */; };
+		378E2943D6F046CABD734176 /* ViolationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FB396163C4338869609C2 /* ViolationView.swift */; };
+		0C5805A502F342BABB5EF079 /* OverrideConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDE4DAEE8C4C49B93E263B /* OverrideConfirmView.swift */; };
+		1E2007BA69A849E283EB4CC1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CBBB18CCB3457980D6DF7F /* SettingsView.swift */; };
+		CED57EBBC117433F9EFE65ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C7AD2C1B054434949A3FC6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43764A333F5E460D89314552 /* Pausely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pausely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		872054B74C7F438892732B34 /* PauselyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauselyApp.swift; sourceTree = "<group>"; };
+		12481F4ED621411EA1A12DF2 /* PauselyTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauselyTheme.swift; sourceTree = "<group>"; };
+		BFBD6878BA25439B9EAA1B3B /* PauselyLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauselyLogo.swift; sourceTree = "<group>"; };
+		43B4202656D14036BA7AB8AC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E222F8EDA6EB4B89878BCDCF /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		52034E4645DF4CD3A378FE28 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		FBEE91A1BCEA4A8FBCAF04C1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A3E23755C93B46099BBAD094 /* StartSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSessionView.swift; sourceTree = "<group>"; };
+		14CECDF718684777B4259D29 /* ActiveSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSessionView.swift; sourceTree = "<group>"; };
+		552FB396163C4338869609C2 /* ViolationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolationView.swift; sourceTree = "<group>"; };
+		D4FDE4DAEE8C4C49B93E263B /* OverrideConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideConfirmView.swift; sourceTree = "<group>"; };
+		B1CBBB18CCB3457980D6DF7F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C0C7AD2C1B054434949A3FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8808ACD782914C21ADDCC8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E0EA7D649C248E18AC3120B = {
+			isa = PBXGroup;
+			children = (
+				5E5CA97380E34CA8B224010C /* Pausely */,
+				F06D9444DE534B87976DC3B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E5CA97380E34CA8B224010C /* Pausely */ = {
+			isa = PBXGroup;
+			children = (
+				872054B74C7F438892732B34 /* PauselyApp.swift */,
+				DB3F4A1B41B44D7394598515 /* Theme */,
+				B8825DE1FF734CC58D497DB6 /* Models */,
+				EDD19C233E634F34B4EA82AD /* Views */,
+				C0C7AD2C1B054434949A3FC6 /* Assets.xcassets */,
+			);
+			path = Pausely;
+			sourceTree = "<group>";
+		};
+		F06D9444DE534B87976DC3B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43764A333F5E460D89314552 /* Pausely.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3F4A1B41B44D7394598515 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				12481F4ED621411EA1A12DF2 /* PauselyTheme.swift */,
+				BFBD6878BA25439B9EAA1B3B /* PauselyLogo.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		B8825DE1FF734CC58D497DB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43B4202656D14036BA7AB8AC /* Models.swift */,
+				E222F8EDA6EB4B89878BCDCF /* AppState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDD19C233E634F34B4EA82AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52034E4645DF4CD3A378FE28 /* RootView.swift */,
+				FBEE91A1BCEA4A8FBCAF04C1 /* HomeView.swift */,
+				A3E23755C93B46099BBAD094 /* StartSessionView.swift */,
+				14CECDF718684777B4259D29 /* ActiveSessionView.swift */,
+				552FB396163C4338869609C2 /* ViolationView.swift */,
+				D4FDE4DAEE8C4C49B93E263B /* OverrideConfirmView.swift */,
+				B1CBBB18CCB3457980D6DF7F /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9097E6C9A06C49FC8BDD9436 /* Pausely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FFE27900276498F8E1AC693 /* Build configuration list for PBXNativeTarget "Pausely" */;
+			buildPhases = (
+				F8457C66D3EF4F5A9F32AEE4 /* Sources */,
+				8808ACD782914C21ADDCC8BE /* Frameworks */,
+				BC883E66B9E4425DB6F410EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pausely;
+			productName = Pausely;
+			productReference = 43764A333F5E460D89314552 /* Pausely.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99EEC9DE6E9494AAE4D4B1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9097E6C9A06C49FC8BDD9436 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 6E35483FC3AC46DA9C4880CE /* Build configuration list for PBXProject "Pausely" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E0EA7D649C248E18AC3120B;
+			productRefGroup = F06D9444DE534B87976DC3B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9097E6C9A06C49FC8BDD9436 /* Pausely */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC883E66B9E4425DB6F410EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED57EBBC117433F9EFE65ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8457C66D3EF4F5A9F32AEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCA09AD09A040529B4AD0DD /* PauselyApp.swift in Sources */,
+				23CFAB18DC264F6D98234A0D /* PauselyTheme.swift in Sources */,
+				52603654B66649188E4F0E50 /* PauselyLogo.swift in Sources */,
+				70E157DB3FA34F23BC2483D9 /* Models.swift in Sources */,
+				A609E51D34F14291A5AAEB0F /* AppState.swift in Sources */,
+				32EECD14BFB547918B727AA3 /* RootView.swift in Sources */,
+				6BC7A7B8C63D4EEBA8E65ADC /* HomeView.swift in Sources */,
+				9492F97CEA31448993FAC810 /* StartSessionView.swift in Sources */,
+				618A91D8A5834726BF12AADB /* ActiveSessionView.swift in Sources */,
+				378E2943D6F046CABD734176 /* ViolationView.swift in Sources */,
+				0C5805A502F342BABB5EF079 /* OverrideConfirmView.swift in Sources */,
+				1E2007BA69A849E283EB4CC1 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		023BC7D66CF24C889614A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BCE64821D4F4FEDA4E5F734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F786D9F7A43D4DCA96DA730C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pausely;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pausely.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		224A39326F7B41738D9341CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pausely;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pausely.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E35483FC3AC46DA9C4880CE /* Build configuration list for PBXProject "Pausely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023BC7D66CF24C889614A78F /* Debug */,
+				6BCE64821D4F4FEDA4E5F734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FFE27900276498F8E1AC693 /* Build configuration list for PBXNativeTarget "Pausely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F786D9F7A43D4DCA96DA730C /* Debug */,
+				224A39326F7B41738D9341CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99EEC9DE6E9494AAE4D4B1E /* Project object */;
+}
