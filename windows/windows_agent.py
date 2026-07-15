@@ -1,19 +1,15 @@
 import psutil as ps
 import time as tm
-
-c = 100
+import state
 
 process_names = [
     "placeholder"
 ]
 
-auth = True # Connected with sockets later but placeholder for noq
-
-
 def check_proc():
     for process in ps.process_iter():
         try:
-            if process.info["name"] in process_names:
+            if process.name() in process_names:
                 return process
         except ps.NoSuchProcess:
             pass
@@ -21,12 +17,19 @@ def check_proc():
     return None
 
 
-if __name__ == "__main__":
+def run():
+    id = 0
     while True:
-        if auth:
+        if not state.authorized:
             proc = check_proc()
             if proc is not None:
                 try:
+                    state.events.append({
+                        "id": id,
+                        "type": "VIOLATION",
+                        "game": proc.name()
+                    })
+                    id += 1
                     proc.terminate()
                 except ps.NoSuchProcess:
                     pass
