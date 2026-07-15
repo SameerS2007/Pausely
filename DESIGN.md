@@ -8,7 +8,7 @@ This app is meant to hold you to your goals. We don't believe playing games is b
 
 ## Problem Statement
 
-Playing games is good, but its easy to spiral. How can we allow people to still enjoy games but not play too much or at the wrong times?
+Playing games is good, but its easy to spiral. How	 can we allow people to still enjoy games but not play too much or at the wrong times?
 
 ## Goals 
 - Force users to be unable play during certain times of the day
